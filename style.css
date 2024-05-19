@@ -1,0 +1,117 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo img {
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right ul {
+    display: flex;
+    gap: 30px;
+}
+
+.right ul li {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.right ul li span {
+    padding: 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 33px;
+    gap: 32px;
+}
+
+.first span {
+    font-size: 34px;
+}
+
+.first span img {
+    width: 80px;
+    margin: 2px;
+}
+
+.first p {
+    font-size: 18px;
+    width: 55vw;
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    padding: 12px 10px;
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.second{
+    
+    max-width: 80vw;
+    margin: auto;
+}
+.download img{
+    width: 40px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 20px;
+}
+.download :nth-child(2){
+    font-size: 25px;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+.small{
+    font-size: 12px;
+}
+
+.item{
+    padding: 25px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.item-lang{
+    padding-bottom: 39px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .grid{ 
+        grid-template-columns: 1fr;
+    }
+}
